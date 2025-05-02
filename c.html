@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vista Principal</title>
+</head>
+<body>
+
+  <div>
+    <br>
+    <table style="width: 100%; height: 60px; background-color: rgb(46, 189, 33); color: white;">
+      <tr>
+        <td style="width: 60px; text-align: center;">
+          <img src="https://images.vexels.com/media/users/3/157582/isolated/preview/e70b108c71209e15cdf1b1b3056a6dac-icono-de-hoja-suave-negro.png" width="40px" height="40px">
+        </td>
+        <td>
+          <h2 style="margin: 0;">Vivero Vital</h2> 
+        </td>
+      </tr>
+    </table>
+    <br><br>
+
+    <div>
+      <table style="width: 100%;">
+        <tr>
+          <td style="width: 70%;">
+            <form action="d.html" method="get">
+              <table style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 10px;">
+                <tr>
+                  <td>
+                    
+                    <input type="text" id="buscar" name="buscar" placeholder="Buscar..." 
+                      style="width: 80%; padding: 5px; border-radius: 5px; border: 1px solid #ccc;">
+                    <button type="submit" style="padding: 5px 10px; background-color: green; color: white; border: none; border-radius: 5px;">Buscar</button>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </td>
+          <td style="text-align: right;">
+            <table>
+              <tr>
+                <td>
+                    <form action="c.html">
+                    <button style="background-color: #78ff7d; border-radius: 10px;" type="submit" name="estado" value="on">on</button>
+                    </form>
+                    <form action="b.html">
+                    <button style="background-color: #78ff7d; border-radius: 10px;" type="submit" name="estado" value="off">off</button>    
+                    </form>          
+                  </td>
+                <td>
+                  <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png" style="height: 60px; width: 80px;">
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <br><br>
+
+
+    <div>
+      <table style="width: 1000px; margin: auto;">
+        <tr>
+          <td style="border-radius: 10px 10px 0 0; border: 1px solid rgb(14, 161, 19); background-color: rgb(248, 255, 184); text-align: center;">Registrar Invernaderos</td>
+          <td style="border-radius: 10px 10px 0 0; border: 1px solid rgb(14, 161, 19); background-color: rgb(248, 255, 184); text-align: center;">Control Invernaderos</td>
+          <td style="border-radius: 10px 10px 0 0; border: 1px solid rgb(14, 161, 19); background-color: rgb(248, 255, 184); text-align: center;">Control de Humedad</td>
+          <td style="border-radius: 10px 10px 0 0; border: 1px solid rgb(14, 161, 19); background-color: rgb(248, 255, 184); text-align: center;">Control de Piso</td>
+          <td style="border-radius: 10px 10px 0 0; border: 1px solid rgb(14, 161, 19); background-color: rgb(248, 255, 184); text-align: center;">Enfermedades</td>
+        </tr>
+      </table>
+    </div>
+
+    <br><br>
+
+
+    <form action="d.html" method="get">
+      <label for="filtro" style="font-weight: bold;">Filtrar invernaderos:</label>
+      <select id="filtro" name="filtro" style="padding: 5px; margin-left: 10px; border-radius: 5px;">
+        <option value="todos">Todos</option>
+        <option value="tomates">flores amarillas</option>
+        <option value="lechugas">flores azules</option>
+        <option value="flores">Flores rojas</option>
+      </select>
+      <button type="submit" style="padding: 5px 10px; background-color: #9ac43a; color: black; border-radius: 5px; border: none;">Aplicar</button>
+    </form>
+
+    <br>
+
+    <table style="margin: auto;">
+      <tr>
+        <td><img src="https://media.istockphoto.com/id/1130687594/es/vector/icono-3d-isom%C3%A9trico-de-efecto-invernadero-crecimiento-de-pl%C3%A1ntulas-en-invernadero.jpg?s=612x612&w=0&k=20&c=OY86FzM9bJBKlhRXZB1ZvdtnNdO-QDnkQpElsnu_Q-E=" style="height: 200px; width: 200px;"></td>
+        <td><img src="https://media.istockphoto.com/id/1130687594/es/vector/icono-3d-isom%C3%A9trico-de-efecto-invernadero-crecimiento-de-pl%C3%A1ntulas-en-invernadero.jpg?s=612x612&w=0&k=20&c=OY86FzM9bJBKlhRXZB1ZvdtnNdO-QDnkQpElsnu_Q-E=" style="height: 200px; width: 200px;"></td>
+      </tr>
+    </table>
+
+    <br>
+    <div style="text-align: center;">
+      <button onclick="location.href='d.html'" style="padding: 10px 20px; background-color: #4caf50; color: white; border-radius: 5px; border: none;">Ir a Invernaderos</button>
+    </div>
+
+    <br><br>
+
+
+    <div>
+      <table style="background-color: hsl(54, 100%, 64%); width: 100%; height: 85px; margin-top: 100px;">
+        <tr>
+          <td style="text-align: right; padding-right: 50px; font-weight: bold;">
+            Menu
+          </td> 
+        </tr> 
+      </table>
+    </div>
+
+</body>
+</html>
